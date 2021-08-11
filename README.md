@@ -1,5 +1,17 @@
 # Feature Extraction and Selection
 
+https://github.com/gterren/cloud_segmentation
+
+https://github.com/gterren/signal_and_image_processing
+
+https://github.com/gterren/multiple_cloud_dection_and_segmentation
+
+https://github.com/gterren/multiple_velocity_fields_visualization
+
+https://github.com/gterren/girasol_machine
+
+https://github.com/gterren/geospatial_perspective_reprojection
+
 ## Feature Extraction
 
 The file XX performs the feature extraction using the processing methods in the resitories: .
