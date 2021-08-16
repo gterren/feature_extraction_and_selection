@@ -4,6 +4,7 @@ See these paper for more information about feature extraction: https://arxiv.org
 
 The class file that contains the information about the processing frame is config.py, the file with all paths to models and data is files.py. The files extra.py and utils.py contains the functions necessaries to drive the feature extraction and selection. The remaning files contains the functions introduced in other repositories that needed for the implementation of the feature extraction and selection algorithm. 
 
+The features extraxted and and selected are used for the forecasting algorithms which files are uploaded in this repository https://github.com/gterren/intra-hour_solar_forecasting.
 
 ## Feature Extraction
 
