@@ -1,0 +1,93 @@
+#!/bin/bash
+
+A=2
+B=0
+C=0
+qsub -v ARG1=$A,ARG2=$B,ARG3=$C run.pbs
+
+
+for A in 1; do
+	for B in 0 3 4 6; do
+ 		qsub -v ARG1=$A,ARG2=$B run.pbs
+		sleep 5s
+	done
+done
+
+for A in 1; do
+	for B in 0; do
+ 		qsub -v ARG1=$A,ARG2=$B run.pbs
+		sleep 5s
+	done
+done
+
+for A in {0..51}; do
+	for B in 0; do
+ 		qsub -v ARG1=$A,ARG2=$B run.pbs
+		sleep 5s
+	done
+done
+
+
+for A in {0..52}; do
+ 	qsub -v ARG1=$A run.pbs
+	sleep 5s
+done
+
+for A in 1; do
+ 	qsub -v ARG1=$A run.pbs
+	sleep 3s
+done
+
+for A in 0 1; do
+ 	qsub -v ARG1=$A run.pbs
+	sleep 5s
+done
+
+for A in {0..14}; do
+ 	qsub -v ARG1=$A run.pbs
+	sleep 5s
+done
+
+
+for A in 1 2 4 5 10; do
+	for B in 2 4 6 8 10 12 15; do
+		for C in 200 400 600 800 1000; do
+ 			qsub -v ARG1=$A,ARG2=$B,ARG3=$C run.pbs
+			sleep 3s
+		done
+	done
+done
+
+for A in 75 85; do
+	for B in 1 2; do
+		for C in 75 100; do
+			for D in 0 1; do
+				for E in 0 1; do
+					qsub -v ARG1=$A,ARG2=$B,ARG3=$C,ARG4=$D,ARG5=$E run.pbs
+					sleep 5s
+				done
+			done
+		done
+	done
+done
+
+for A in 60 75 90 100; do
+	for B in 60 75 90 100; do
+		for C in 60 75 90 100; do
+			qsub -v ARG1=$A,ARG2=$B,ARG3=$C run.pbs
+			sleep 5s
+		done
+	done
+done
+
+for A in 40 50 60 70 80; do
+	for B in 40 50 60 70 80; do
+		qsub -v ARG1=$A,ARG2=$B run.pbs
+		sleep 5s
+	done
+done
+
+for A in 16 18 20; do
+ 	qsub -v ARG1=$A run.pbs
+	sleep 5s
+done
