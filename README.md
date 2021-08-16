@@ -11,7 +11,7 @@ The file run_feature_extraction.py performs the feature extraction using the pro
 
 ## Feature Selection
 
-After the features are extracted and the wind velocity field is estimated the files are save in a directory. These files are loaded and processed again to select the pixels that will more likely intercept the Sun. The itersecting probabilies are used to weighted the stastistics computed for each features in file run_feature_selection.py.
+After the features are extracted and the wind velocity field is estimated the files are save in a directory. These files are loaded and processed again to select the pixels that will more likely intercept the Sun. The intersecting probabilies are used to weighted the stastistics computed for each features in file run_feature_selection.py.
 
 ## Dataset
 
