@@ -1,9 +1,9 @@
 {
     "description": "<p>This repository contains the software necessary for extracting the features and selecting the Sun intersecting cloudy pixels using the functions contained in files posted in other repositories.</p><p>See preprint article: <a href='https://arxiv.org/pdf/2110.05622.pdf'>https://arxiv.org/pdf/2110.05622.pdf</a></p></p><p>See preprint article: <a href='https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4064631'>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4064631</a></p><p>See realated data: <a href='https://doi.org/10.5061/dryad.zcrjdfn9m'>https://doi.org/10.5061/dryad.zcrjdfn9m</a></p><p>Additional funding was provided by the King Felipe VI Endowed Chair of the University of New Mexico.</p>", 
     "license": "Apache-2.0", 
-    "title": "Feature Extractiond and Selection of the Sun Intersecting Pixels", 
+    "title": "Feature Extraction and Sun Intersecting Pixels Selection", 
     "upload_type": "software", 
-    "publication_date": "2022-08-18", 
+    "publication_date": "2022-08-19", 
     "creators": [
         {
             "affiliation": "University of New Mexico", 
