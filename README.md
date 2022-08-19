@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/394798189.svg)](https://zenodo.org/badge/latestdoi/394798189)
+
 # Feature Extraction and Selection
 
 See these paper for more information about feature extraction: https://arxiv.org/pdf/2101.08694.pdf.
