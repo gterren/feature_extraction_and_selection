@@ -7,7 +7,7 @@ authors:
 - family-names: "Martínez-Ramón"
   given-names: "Manel"
   orcid: "https://orcid.org/0000-0001-5873-9674"
-title: "Girasol Repository Processing Files"
-version: 1.03
-date-released: 2022-08-18
+title: "Feature Extraction and Sun Intersecting Pixels Selection"
+version: 1.04
+date-released: 2022-08-19
 url: "https://github.com/gterren/feature_extraction_and_selection"
