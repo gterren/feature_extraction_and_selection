@@ -37,18 +37,18 @@
             "relation": "isSupplementTo"
         }, 
         {
-            "scheme": "doi", 
-            "identifier": "10.5061/dryad.zcrjdfn9m", 
-            "relation": "isSupplementTo"
-        }, 
-        {
-            "scheme": "doi", 
+            "scheme": "url", 
             "identifier": "https://arxiv.org/abs/2110.05622", 
             "relation": "isSupplementTo"
         },
         {
-            "scheme": "doi", 
+            "scheme": "url", 
             "identifier": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4064631", 
+            "relation": "isSupplementTo"
+        },
+        {
+            "scheme": "doi", 
+            "identifier": "10.5061/dryad.zcrjdfn9m", 
             "relation": "isSupplementTo"
         }
     ]
